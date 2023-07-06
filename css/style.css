@@ -29,10 +29,11 @@
         color:#fff;
         text-decoration:none;
     }
-    .social-links{ width:30%;
+    .social-links{
+         width:30%;
         float:right;
         height:100%;
-    text-align:right;
+        text-align:right;
 }
     .social-links i{
         color:#fff;
