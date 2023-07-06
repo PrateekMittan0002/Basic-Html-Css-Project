@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+/* row -1 css start */
 #row1{
     background-color: #9e9ef3;
     height:30px;
@@ -40,4 +41,53 @@
         line-height:30px;
         border-right:2px solid #000;
         padding-right:8px;
+    } 
+    /*row 1 css end */
+
+    /* row-2 css start*/
+#row2{
+    height: 80px;
+    width: 100%;
+    background: #fff;
+}
+.header section{
+        width: 90%;
+        margin: 0 auto;
+}
+    .logo{
+        width: 20%;
+        float: left;
+    
     }
+    .logo img{
+        height: 80px;
+        margin-top: 10px;
+    }
+
+    .menu{ 
+        width: 65%;
+        float: right;
+    }
+    .menu ul{}
+    .menu ul li{
+        float: left;
+        width: 108px;
+        text-align: center;
+        list-style: none;
+       line-height: 80px;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #9e9ef3;
+    }
+    .menu ul li i{
+   height: 30px;
+   width:  30px;
+   border:2px solid orchid;
+   border-radius: 100%;
+   line-height: 30px;
+  
+    }
+
+    /* row -2 css end */
