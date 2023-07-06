@@ -50,7 +50,7 @@
     width: 100%;
     background: #fff;
 }
-.header section{
+.header_section{
         width: 90%;
         margin: 0 auto;
 }
@@ -90,4 +90,55 @@
   
     }
 
-    /* row -2 css end */
+    /* row-2 css end */
+    /* row-3 is start*/
+    #Row3{
+        height:500px;
+        width: 100%;
+        background-image:url(https://media.architecturaldigest.com/photos/63b5bcb991798386d6c64127/3:2/w_3939,h_2626,c_limit/GettyImages-1235814282.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-repeat: round;
+        margin-top: 25px;
+        position: relative;
+    }
+    .overlayrow3{
+        height: 100%;
+        width: 100%;
+        background: rgba(0,0,0,.7);
+        position:absolute;
+    }
+    .banner_section{
+        text-align: center;
+        color:#fff;
+        position:absolute;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .banner_content {
+
+    }
+    .banner_content h1{
+        text-transform: uppercase;
+        font-size: 50px;
+        line-height: 70px;
+        padding-top: 200px;
+    }
+    .banner content p{
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: ;
+    }
+    .banner button{}
+    .banner_button button{
+        padding:10px;
+        background:none;
+        border:2px solid #fff;
+        text-transform: uppercase;
+        border-radius:3px;
+        margin-right:10px;
+    }
+    .banner_button button:hover{
+        background-color: #455964;
+        transition: 1s;
+    }
