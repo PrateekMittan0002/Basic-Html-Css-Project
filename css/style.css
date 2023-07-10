@@ -2,268 +2,490 @@
     padding: 0;
     margin: 0;
 }
-/* row -1 css start */
+/* Row-1 CSS Start */
 #row1{
-    background-color: #9e9ef3;
-    height:30px;
-    width:100%;
+background-color: #35363A;
+height: 30px;
+width: 100%;
 }
-    .top-section{
-        width:90%;
-        margin:0 auto;
-
-    }
-    .left-links{
-        width:60%;
-        float:left;
-        height:100%;
-    }
-    .left-links ul{}
-    .left-links ul li{
-        float:left;
-        list-style:none;
-        margin-left:10px;
-        color:#fff;
-        line-height:30px;
-    }
-    .left-links ul li a{
-        color:#fff;
-        text-decoration:none;
-    }
-    .social-links{
-         width:30%;
-        float:right;
-        height:100%;
-        text-align:right;
+.top-section{
+    width: 90%;
+    margin: 0 auto;
 }
-    .social-links i{
-        color:#fff;
-        line-height:30px;
-        border-right:2px solid #000;
-        padding-right:8px;
-    } 
-    /*row 1 css end */
+.left-links{
+    width: 60%;
+    float: left;
+    height: 100%;
+}
+.left-links ul{}
+.left-links ul li{
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    color: #fff;
+    line-height: 30px;
 
-    /* row-2 css start*/
+}
+.left-links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.social-links{
+    width: 30%;
+    float: right;
+    height: 100%;
+    text-align: right;
+}
+.social-links i{
+    color: #fff;
+    line-height: 30px;
+    border-right: 2px solid #000;
+    padding-right: 8px;
+}
+/* Row-1 CSS End */
+
+
+/* Row-2 CSS Start */
 #row2{
     height: 80px;
     width: 100%;
     background: #fff;
 }
 .header_section{
-        width: 90%;
-        margin: 0 auto;
+    width: 90%;
+    margin: 0 auto;
 }
-    .logo{
-        width: 20%;
-        float: left;
+.logo{
+    width: 25%;
+    float: left;
+}
+.logo img{
+    height: 50px;
+    margin-top: 10px;
+}
+.menu{
+    width: 65%;
+    float: right;
+    text-align: right;
+
+}
+.menu ul{
+}
+.menu ul li {
+    float: left;
+    line-height: 80px;
+    width: 105px;
+    text-align: center;
+    list-style: none;
+}
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #455964;
+}
+.menu ul li i {
+    height: 30px;
+    width: 30px;
+    border: 2px solid #455964;
+    border-radius: 100%;
+    line-height: 30px;
+}
+
+/* Row-2 CSS End */
+
+/* Row-3 CSS Start */
+#row3{
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round;
+    position: relative;
+}
+.overlayrow3{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    position: absolute;
+}
+.banner_section{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
     
-    }
-    .logo img{
-        height: 80px;
-        margin-top: 10px;
-    }
+}
+.banner_content{}
+.banner_content h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 70px;
+    padding-top: 200px;
+}
+.banner_content p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.banner_button{}
+.banner_button button {
+    background: none;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.banner_button button:hover{
+    background-color: #455964;
+    transition: 1s;
+}
 
-    .menu{ 
-        width: 65%;
-        float: right;
-    }
-    .menu ul{}
-    .menu ul li{
-        float: left;
-        width: 108px;
-        text-align: center;
-        list-style: none;
-       line-height: 80px;
-    }
-    .menu ul li a{
-        text-decoration: none;
-        text-transform: uppercase;
-        color: #9e9ef3;
-    }
-    .menu ul li i{
-   height: 30px;
-   width:  30px;
-   border:2px solid orchid;
-   border-radius: 100%;
-   line-height: 30px;
-  
-    }
+/* Row-3 CSS End */
 
-    /* row-2 css end */
-    /* row-3 is start*/
-    #Row3{
-        height:500px;
-        width: 100%;
-        background-image:url(https://media.architecturaldigest.com/photos/63b5bcb991798386d6c64127/3:2/w_3939,h_2626,c_limit/GettyImages-1235814282.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-repeat: round;
-        margin-top: 25px;
-        position: relative;
-    }
-    .overlayrow3{
-        height: 100%;
-        width: 100%;
-        background: rgba(0,0,0,.7);
-        position:absolute;
-    }
-    .banner_section{
-        text-align: center;
-        color:#fff;
-        position:absolute;
-        width: 90%;
-        margin: 0 auto;
-    }
-    .banner_content {
+/* Row-4 CSS Start */
+#row4{
+    height: 80px;
+    width: 100%;
+    background: #234757;
+}
+.form_section{
+    width: 90%;
+    margin: 0 auto;
+}
+.text_part{
+    width: 15%;
+    float: left;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.text_part h4 {
+    line-height: 32px;
+}
+.text_part h1{
+    color: #fff;
+}
+.form_part{
+    padding-top: 23px;
+}
+.form_part form{
+    width: 80%;
+    float: left;
+}
+.input_item{
+    float: left;
+    width: 416px;
+}
+.input_item label {
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+    padding-right: 15px;
+}
+.input_item input[type="text"] {
+    padding: 8px;
+    width: 320px;
+    color: gray;
+}
+.input_item input[type="date"]{
+    padding: 8px;
+    width: 320px;
+    color: gray;
+}
+.input_item i {
+    color: gray;
+    position: absolute;
+    margin-left: -26px;
+    line-height: 35px;
+}
+.form_part button {
+    padding: 10px 15px;
 
-    }
-    .banner_content h1{
-        text-transform: uppercase;
-        font-size: 50px;
-        line-height: 70px;
-        padding-top: 200px;
-    }
-    .banner content p{
-        font-size: 20px;
-        font-weight: 600;
-        text-transform: ;
-    }
-    .banner button{}
-    .banner_button button{
-        padding:10px 20px;
-        background:none;
-        border:2px solid #fff;
-        text-transform: uppercase;
-        border-radius:3px;
-        margin-right:10px;
-    }
-    .banner_button button:hover{
-        background-color: #455964;
-        transition: 1s;
-    }
-     /*row 3 is end*/
-     /* row 4 is started */
-     #row4{
-        height: 80px;
-        width: 100%;
-        background: #234757;
-     }
-     .form_section{
-        width: 90%;
-        margin: 0 auto;
-     }
-     .text_part{
-        width: 15%;
-        float: left;
-        text-transform: uppercase;
-     }
-     .text_part h4{
-        line-height: 32px;
-     }
-     .text_part h1{
-        color: #fff;
-     }
-     .form_part{
-        
-        padding-top: 23px;
-     }
-     .form_part form{ 
-        width: 80%;
-        float: left;
-    
-      
-     }
-     .input_item{
-        float: left;
-        padding-top: 0px;
-        width:416px;
-        
+    background: lightgray;
+    border: none;
+}
 
-     }
-     .input_item label{
-        font-size: 18px;
-        font-weight: 500;
-        color: greenyellow;
-        padding-right: 15px;
-        
-     }
-     .input_item input[type="Text"]{
-        padding: 8px;
-        width: 320px;
-        color: red;
-     }
-     .input_item input[type="Date"]{
-        padding:8px;
-        width:320px;
-        color:red;
+/* Row-4 CSS End */
 
-     }
-     .input_item i{
-        color:greenyellow;
-        position:absolute;
-        margin-left: -30px;
-        line-height: 35px;
-     }
-     .form_part form{
-        padding: 10px;
-        margin-top: 9px;
-        background: lightcyan;
-        border:none;
-     }
-     /* Roe 4 end */
-     /* Row 5 is started*/
-     #row5{
-        height: 500px;
-        width: 100%;
-        background: #fff;
-     }
-     .offer_section{
-        width: 90%;
-        margin:0 auto;
-
-     }
-     .offer_top{
-        text-align: center;
-        padding:40px 0px
-     }
-     .offer_top h2{}
-     .offer_top p{}
-     .offer_bottom{}
-     .all_offer_items{}
-     .offer_items{
-        width: 230px;
-        float: left;
-        margin-left: 40px;
-        border: 4 px solid gray;
-        border-radius: 5px;
-        box-shadow: 2px 2px 2px;
-        padding: 5px;
-        transition: 1s;
-
-     }
-     .offer_items img{
-        width: 100%;
-        height: 150px;
-     }
-     .offer_items:hover{
-        transform:scale(1.2)
-     }
-     .offer_text{
-        width:80%;
-        float: left;
-
-    }
-     .offer_text h3{}
-     .offer_text h4{}
-     .offer_icons{
-        width:10%;
-        float:right;
-     }
-     .offer_icons i{}
-
-     
-     
+/* Row-5 CSS Start */
+#row5{
+    height: 400px;
+    width: 100%;
+    background: #fff;
+}
+.offer_section{
+    width: 90%;
+    margin: 0 auto;
+}
+.offer_top{
+    text-align: center;
+    padding: 40px 0px;
+}
+.offer_top h2{}
+.offer_top p{}
+.offer_bottom{}
+.all_offer_items{}
+.offer_item{
+    width: 225px;
+    float: left;
+    margin-left: 40px;
+    border: 4px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    transition: 1s;
+    background: pink;
+}
+.offer_item:hover{
+    transform: scale(1.2);
+    background: #2D3E50;
+    color: #fff;
+}
+.offer_item img{
+    width: 100%;
+    height: 150px;
+}
+.offer_text{
+    width: 80%;
+    float: left;
+}
+.offer_text h3 {
+    font-size: 14px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.offer_text h4{
+    font-size: 12px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+.offer_item:hover .offer_text h4{
+    color: gray;
+}
+.offer_icon{
+    width: 10%;
+    float: right;
+}
+.offer_icon i {
+    line-height: 50px;
+}
 
 
+/* Row-5 CSS End */
 
+/* Row-6 CSS Start */
+#row6{
+    height: 400px;
+    width: 100%;
+    background: url(https://media.istockphoto.com/id/587540100/photo/new-york-city-brooklyn-bridge-park.webp?b=1&s=170667a&w=0&k=20&c=6pjRhb_NS_Y16t88fVxccgjoMjAR4lcT9ji9ehlc-10=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round;
+    position: relative;
+}
+.overlay-6{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0,0,0,.6);
+}
+.holidays_section{
+    width: 90%;
+    margin: 0 auto;
+}
+.holi_top{
+    text-align: center;
+    padding: 40px 0px;
+    color: #fff;
+    position: absolute;
+    left: 45%;
+}
+.holi_top h1{
+    text-transform: uppercase;
+}
+.holi_top p{}
+.holi_bottom{
+    padding-bottom: 40px;
+    position: absolute;
+    top: 50%;
+
+}
+.holi_item_all{}
+.holi_item {
+    width: 189px;
+    float: left;
+    color: #fff;
+    text-align: center;
+}
+.holi_item i {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    line-height: 100px;
+    font-size: 50px;
+}
+.holi_item h4{}
+/* Row-6 CSS End */
+
+/* Row-7 CSS Start */
+#row7
+{
+height: 400px;
+width: 100%;
+background: #fff;
+}
+.happy_section
+{
+width: 90%;
+margin: 0 auto;
+
+}
+.happy_top
+{
+text-align: center;
+padding: 40px 0px;
+}
+.happy_top h1
+{
+    text-transform: uppercase;
+}
+.happy_top p
+{
+
+}
+.happy_bottom
+{
+padding-bottom: 40px;
+}
+.happy_item
+{
+width: 29%;
+float: left;
+margin-left: 15px;
+border: 2px solid skyblue;
+padding: 10px;
+transition: 1s;
+}
+.happy_item:hover{
+    border-top: 5px solid #333;
+}
+.happy_item p
+{
+text-align: justify;
+}
+.happy_item h4{}
+/* Row-7 CSS End */
+
+/* row-8 css start */
+
+#row8{
+    height: 370px;
+    width: 100%;
+    background-color: #303131;
+}
+.footer_section{
+    width: 90%;
+    margin:0 auto;
+}
+.footer_top{
+    padding: 40px 0px;
+    border-bottom: 2px solid gray;
+    height: 205px;
+}
+.footer_top_item{
+    width: 22%;
+    float:left;
+    color:#fff;
+    margin-left: 34px;
+}
+.footer_top_item h2{
+    margin-bottom: 10px;
+}
+.footer_top p{
+    font-size: 13px;
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 15px;
+    width: 224px;
+}
+.footer_top_item input[type="email"]{
+    padding:5px;
+}
+.footer_top_item_button{
+padding: 7px 10px;
+background:gray;
+border: none;
+}
+.news_item{
+    height: 52px;
+}
+.news_item_left{
+    width: 20%;
+    float: left;
+}
+.news_item_left img{
+    height: 22px;
+    border: 2px solid #fff;
+}
+.news_item_right{
+    width: 70%;
+    float: left;
+
+}
+.news_item_right h5{}
+.news_item_right p{
+    color: gray;
+    font-weight: 600;
+}
+.footer_top_item ul{}
+.footer_top_item ul li{
+    list-style: none;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin:3px;
+    padding: 3px;
+}
+.footer_top_item h4{
+    font-size: 14px;
+    line-height: 30px;
+
+}
+.footer_top_item h5{
+    margin-top: -2px;
+}
+.footer_icon{}
+.footer_icon i{
+    margin-left: 18px;
+}
+.footer-bottom{}
+.footer_menu{
+    height: 25px;
+}
+.footer_menu ul{
+    width: 433px;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+.footer_menu ul li{
+    float:left;
+    list-style: none;
+    margin-left: 20px;src: ;
+    text-transform: capitalize;
+} 
+.footer_menu ul li a{
+    color: gray;
+    text-decoration: none;
+
+}
+.copy_right{} 
+.copy_right p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+} 
+
+
+/* row 8 css is end */
